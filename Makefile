@@ -7,3 +7,7 @@ decoder:
 scramble:
 	@$(CC) scramble.cpp -o bin/scramble
 	@./bin/scramble
+
+jolly:
+	@$(CC) jolly.cpp -o bin/jolly
+	@./bin/jolly
